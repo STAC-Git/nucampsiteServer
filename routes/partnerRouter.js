@@ -9,7 +9,7 @@ partnerRouter.route('/')
     })
 
     .get((req, res) => {
-        res.end('Will send all the partners to you');
+        res.end('Will send all the partners to you today');
     })
 
     .post((req, res) => {
